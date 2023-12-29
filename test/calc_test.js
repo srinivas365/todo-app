@@ -24,5 +24,9 @@ describe('Calculator Tests', function() {
     it('should handle both zero operands', function() {
       assert.strictEqual(multiply(0, 0), 0);
     });
+
+    it('should handle both negative numbers', function() {
+      assert.strictEqual(multiply(-3, -2), 6);
+    });
   });
 });
