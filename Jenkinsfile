@@ -13,9 +13,21 @@ pipeline {
       }
     }
 
-    stage('deploy') {
+    stage('staging') {
       steps {
-        echo 'deploy stage'
+        echo 'deploy in staging env'
+      }
+    }
+
+    stage('uat') {
+      steps {
+        echo 'uat stage'
+      }
+    }
+
+    stage('production') {
+      steps {
+        echo 'deploy in prod env'
       }
     }
 
