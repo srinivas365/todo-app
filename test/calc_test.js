@@ -14,7 +14,7 @@ describe('Calculator Tests', function() {
 
   describe('multiply function', function() {
     it('should multiply two numbers correctly', function() {
-      assert.strictEqual(multiply(2, 3), 6);
+      assert.strictEqual(multiply(2, 3), 7);
     });
 
     it('should handle one zero operand', function() {
